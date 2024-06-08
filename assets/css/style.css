@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&family=Ubuntu:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  font-family: "Lexend", sans-serif;
+}
+
+.logo img {
+  width: 160px;
+  height: 40px;
+}
+
+.search-input {
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.search-icon {
+  right: 10px;
+  top: 8px;
+}
+
+.chart-total {
+  background-color: #df5a5a;
+  border-radius: 100%;
+  padding: 3px 6px;
+  font-size: 8px;
+  right: -6px;
+  top: -4px;
+}
+
+.circle-header {
+  top: -30%;
+  right: 35%;
+}
+
+/* Footer */
+
+footer {
+  background-color: #303137;
+  font-family: "Lexend", sans-serif;
+}
+
+footer .line-footer {
+  border-top: 1px solid #a1a1a1;
+}

@@ -1,0 +1,131 @@
+/* Hero Section */
+
+.hero-section {
+  font-size: 400px !important;
+}
+
+.hero-section h2 {
+  background: linear-gradient(to right, #3f60b6, #6d5fc1, #76b6da, #ecc444);
+  background-clip: text;
+  color: transparent;
+  font-family: "Titan One", sans-serif;
+}
+
+.hero-section h3 {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #7d7d7d;
+}
+
+.hero-section button {
+  font-size: 16px;
+  font-family: "Lexend", sans-serif;
+  background: linear-gradient(to right, #76b6da 4%, #947e9c 50%, #5243d6 100%);
+}
+
+/* Popular Section */
+
+.product {
+  display: none;
+}
+
+.product.active {
+  display: block;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+.popular-section {
+  font-family: "Lexend", sans-serif;
+}
+
+.popular-section h2 {
+  font-size: 24px;
+}
+
+.popular-section .btn-category-active {
+  border: #ecc444 2px solid;
+  background-color: #ecc444;
+}
+
+.popular-section .btn-arrow {
+  border: #ecc444 2px solid;
+}
+
+.popular-section .card-title {
+  font-size: 16px;
+}
+
+.popular-section .card-text {
+  font-size: 10px;
+  color: #989898;
+}
+
+.popular-section .btn-more {
+  width: 70%;
+  font-size: 14px;
+  border: 1px solid black;
+}
+
+/* Description Section */
+.description-section .alto-title {
+  font-family: "Titan One", sans-serif;
+}
+
+.description-section .alto-title h2:nth-of-type(1) {
+  font-size: 60px;
+  background: linear-gradient(
+    to right,
+    #3f60b6 0%,
+    #6d5fc1 10%,
+    #76b6da 20%,
+    #ecc444 30%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.description-section .alto-title h2:nth-of-type(2) {
+  font-size: 60px;
+}
+
+.description-section .alto-description {
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.description-section .alto-background {
+  background-color: #e4e4e4;
+}
+
+.description-section .circle-1 {
+  left: -50px;
+}
+
+.description-section .circle-2 {
+  right: -70px;
+}
+.description-section .circle-3 {
+  bottom: -30px;
+  right: 35px;
+}
+
+/* Type Section */
+.type-section {
+  font-family: "Lexend", sans-serif;
+}
+
+.type-section .card-type {
+  height: 280px;
+}
+
+.type-section .card-type h4 {
+  font-size: 24px;
+}
+
+.type-section .card-type:nth-child(2) {
+  background: linear-gradient(to bottom, #4cb3ed, #7dbbde);
+}
